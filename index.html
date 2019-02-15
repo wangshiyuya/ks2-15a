@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body,
+        html,
+        .wrap {
+            width: 100%;
+            height: 100%;
+        }
+        
+        header,
+        section,
+        footer,
+        header ul,
+        .wrap,
+        footer dl {
+            display: flex;
+        }
+        
+        header,
+        header ul,
+        footer {
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        header ul {
+            width: 80%;
+        }
+        
+        .wrap,
+        footer dl {
+            flex-direction: column;
+        }
+        
+        section {
+            flex-grow: 1;
+        }
+        
+        header,
+        footer {
+            height: 44px;
+        }
+        
+        footer dl {
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        footer dl dt,
+        header span {
+            width: 20px;
+            height: 20px;
+            background: #ccc;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 100px;
+            background: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <span></span>
+            <ul>
+                <li>推荐</li>
+                <li>推荐</li>
+                <li>推荐</li>
+                <li>推荐</li>
+            </ul>
+        </header>
+        <section>
+            <div class="banner">
+
+            </div>
+            <div class="lis">
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <dl>
+                <dt></dt>
+                <dd>商品</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>商品</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>商品</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>商品</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>商品</dd>
+            </dl>
+        </footer>
+    </div>
+</body>
+
+</html>
